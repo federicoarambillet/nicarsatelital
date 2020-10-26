@@ -43,3 +43,18 @@ body {
     font-weight: bold;
     color: var(--secondaryColourPage);
 }
+
+.contenedor-principal{
+    background-image: url(/img/fondo-cards.png);
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contact {
+    background-color: var(--primaryColourPage);
+    opacity: 0.35;
+    height: 500px;
+}
