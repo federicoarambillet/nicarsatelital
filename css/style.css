@@ -19,6 +19,13 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+a {
+    color: var(--darkColor);
+}
+
+textarea {
+    resize: none;
+}
 
 /* //////////////
    Nav
@@ -62,25 +69,65 @@ body {
     color: var(--secondaryColourPage);
 }
 
+/* //////////////
+   Banner con form
+//////////////*/
+
 .contenedor-principal{
     background-image: url(../assets/img/fondo-cards.png);
     background-size: cover;
     min-height: 600px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.form-contact {
+.card-plan-head{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    background-color: var(--blackColor);
+    opacity: 0.9;
+    min-height: 180px;
+}
+.card-plan-head p{
+    margin-top: 1rem;
+}
+.tittle-card-plan{
+    font-size: 1.9rem;
+    color: var(--whiteColor);
+}
+
+.tittle-card-plan .text {
+    font-size: 2rem;
+}
+
+.tittle-card-plan .tel {
+    font-weight: bold;
+    color: #b79500;
+    font-size: 2.5rem;
+}
+
+.card-plan-body{
     background-color: var(--primaryColourPage);
-    opacity: 0.35;
-    height: 500px;
+    min-height: 300px;
+    align-items: center;
+    opacity: 0.9;
+    padding: 10px;
 }
 
-.texto {
-    margin-top: 10px;
-    background: #9A9A9A;
-    height: 680px;
+form .form-group input, form .form-group textarea {
+   font-size: 1.3rem;
+}
+
+
+
+.list-beneficios{
+    padding-left: 3px;
+    list-style:none;
+}
+
+.item-list-beneficio{
+    color: var(--whiteColor);
+    line-height: 50px; 
 }
 
 /* //////////////
