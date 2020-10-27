@@ -95,20 +95,11 @@ footer {
     background: var(--darkColor);
 }
 
-footer a {
-    color: var(--whiteColor);
-}
-
-footer a:hover {
-    color: var(--whiteColor);
-}
-
 footer .list-inline .list-inline-item {
     padding: 0px 10px;
-    
 }
 
-.contenedor-contacto {
+footer .contenedor-nosotros {
     box-shadow: 0px 1px 0px 0px #FFFFFF;
 }
 
@@ -121,6 +112,20 @@ footer .contenedor-copy-redes {
    Media queries
 //////////////*/
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {}
 
+@media (max-width: 767.98px) { 
+
+    footer .contenedor-contacto, footer .contenedor-copy-redes {
+        text-align: center;
+    }
+    footer .contenedor-copy-redes {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    footer .contenedor-contacto {
+        font-size: 0.9rem;
+    }
 }
