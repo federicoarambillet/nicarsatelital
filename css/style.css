@@ -45,7 +45,7 @@ body {
 }
 
 .contenedor-principal{
-    background-image: url(/img/fondo-cards.png);
+    background-image: url(../img/fondo-cards.png);
     background-size: cover;
     min-height: 600px;
     display: flex;
