@@ -1,8 +1,14 @@
+
+/* //////////////
+   Variables
+//////////////*/
+
 :root {
     --primaryColourPage:#C4C4C4;
     --secondaryColourPage: #815D00;
     --tercearyColourPage: #9A9A9A;
-    --blackColor: #000000;;
+    --blackColor: #000000;
+    --darkColor: #1a1a1a;
     --whiteColor: #ffffff;
     --primaryColourBtn: FFB800;
     --secondaryColourBtn: 815D00;
@@ -13,6 +19,10 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+/* //////////////
+   Nav
+//////////////*/
 .logo {
     max-width: 180px;
     max-height: 160px;
@@ -21,13 +31,21 @@ body {
 
 .nav-link {
     color: var(--tercearyColourPage);
-    font-size: 25px;
+    font-size: 1.2rem;
     line-height: 37px;
-}
-
-.nav-link {
     display: block;
     padding: .5rem 1rem;
+}
+
+.nav-link:hover {
+    color: var(--whiteColor);
+    background: var(--tercearyColourPage);
+    border-radius: 5px;
+}
+
+.nav-item .btn-planes:hover {
+    background: var(--secondaryColourPage);
+    color: var(--whiteColor);
 }
 
 .navbar-toggler:focus {
@@ -45,7 +63,7 @@ body {
 }
 
 .contenedor-principal{
-    background-image: url(../img/fondo-cards.png);
+    background-image: url(../assets/img/fondo-cards.png);
     background-size: cover;
     min-height: 600px;
     display: flex;
@@ -59,13 +77,50 @@ body {
     height: 500px;
 }
 
+.texto {
+    margin-top: 10px;
+    background: #9A9A9A;
+    height: 680px;
+}
+
+/* //////////////
+   Footer
+//////////////*/
+
+footer {
+    margin-top: 1%;
+    padding: 10px;
+    /* text-align: center; */
+    color: var(--whiteColor);
+    background: var(--darkColor);
+}
+
+footer a {
+    color: var(--whiteColor);
+}
+
+footer a:hover {
+    color: var(--whiteColor);
+}
+
+footer .list-inline .list-inline-item {
+    padding: 0px 10px;
+    
+}
+
+.contenedor-contacto {
+    box-shadow: 0px 1px 0px 0px #FFFFFF;
+}
+
+footer .contenedor-copy-redes {
+   margin-top: 1%;
+   align-items: center;
+}
+
 /* //////////////
    Media queries
 //////////////*/
 
 @media (max-width: 575.98px) { 
 
-    .navbar-nav li a{
-        font-size: 17px;
-    }
 }
