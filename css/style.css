@@ -58,3 +58,14 @@ body {
     opacity: 0.35;
     height: 500px;
 }
+
+/* //////////////
+   Media queries
+//////////////*/
+
+@media (max-width: 575.98px) { 
+
+    .navbar-nav li a{
+        font-size: 17px;
+    }
+}
