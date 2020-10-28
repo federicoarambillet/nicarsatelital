@@ -81,32 +81,32 @@ textarea {
     justify-content: center;
 }
 
-.card-plan-head{
+.card-form-head{
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     background-color: var(--blackColor);
     opacity: 0.9;
     min-height: 180px;
 }
-.card-plan-head p{
+.card-form-head p{
     margin-top: 1rem;
 }
-.tittle-card-plan{
+.tittle-card-form{
     font-size: 1.9rem;
     color: var(--whiteColor);
 }
 
-.tittle-card-plan .text {
+.tittle-card-form .text {
     font-size: 2rem;
 }
 
-.tittle-card-plan .tel {
+.tittle-card-form .tel {
     font-weight: bold;
     color: #b79500;
     font-size: 2.5rem;
 }
 
-.card-plan-body{
+.card-form-body{
     background-color: var(--primaryColourPage);
     min-height: 300px;
     align-items: center;
@@ -118,7 +118,14 @@ form .form-group input, form .form-group textarea {
    font-size: 1.3rem;
 }
 
+form .btn {
+    color: var(--darkColor);
+    font-weight: bold;
+}
 
+form .btn:hover {
+    color: var(--whiteColor);
+}
 
 .list-beneficios{
     padding-left: 3px;
@@ -129,6 +136,61 @@ form .form-group input, form .form-group textarea {
     color: var(--whiteColor);
     line-height: 50px; 
 }
+
+
+/* //////////////
+   Tarifas
+//////////////*/
+
+.card-plan-head{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: var(--tercearyColourPage);
+    min-height: 150px;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+}
+
+.tittle-card-plan{
+    font-size: 1.9rem;
+    color: var(--whiteColor);
+}
+
+.card-plan-body{
+    background-color: var(--primaryColourPage);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+}
+
+.list-beneficios{
+    padding-left: 3px;
+    width: 100%;
+    list-style:none;
+}
+
+.item-list-beneficio{
+    color: var(--whiteColor);
+    line-height: 50px; 
+}
+
+.card-plan-head-premium{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: var(--secondaryColourPage);
+    min-height: 150px;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+}
+
+.card-plan-body-premium{
+    background-color: var(--blackColor);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+}
+
+
 
 /* //////////////
    Footer
