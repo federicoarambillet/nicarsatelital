@@ -1,0 +1,53 @@
+.card-plan-head{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: var(--tercearyColourPage);
+    min-height: 150px;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+.tittle-card-plan{
+    font-size: 1.9rem;
+    color: var(--whiteColor);
+    width: 100%;
+}
+
+.card-plan-body{
+    background-color: var(--primaryColourPage);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+}
+
+.list-beneficios{
+    padding-left: 3px;
+    width: 100%;
+    list-style:none;
+}
+
+.item-list-beneficio{
+    color: var(--whiteColor);
+    line-height: 50px; 
+    clear: both;
+}
+
+.card-plan-head-premium{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: var(--secondaryColourPage);
+    min-height: 150px;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+.card-plan-body-premium{
+    background-color: var(--blackColor);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
+}
