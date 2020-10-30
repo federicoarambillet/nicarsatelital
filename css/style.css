@@ -253,10 +253,14 @@ footer .nav-footer p a{
 @media (max-width: 575.98px) {}
 
 @media (max-width: 767.98px) { 
+    .content-center .row, footer .contenedor-nosotros {
+        margin: 0;
+    }
 
     footer .contenedor-contacto, footer .contenedor-copy-redes {
         text-align: center;
     }
+    
     footer .contenedor-copy-redes {
         font-size: 0.9rem;
     }
