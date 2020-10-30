@@ -25,6 +25,11 @@ a {
     color: var(--darkColor);
 }
 
+.icon-nav{
+    margin-top: -10px;
+    width: 24px;
+}
+
 textarea {
     resize: none;
 }
