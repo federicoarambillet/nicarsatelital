@@ -239,6 +239,10 @@ section .service {
 .border-grey-services:hover{
     box-shadow:1px 2px 3px orange;
 }
+
+.img-planes-responsive{
+    max-height: 250px;
+}
 /* //////////////
    Footer
 //////////////*/
@@ -266,7 +270,7 @@ footer .nav-footer p a{
    Media queries
 //////////////*/
 
-@media (max-width: 575.98px) {}
+
 
 @media (max-width: 767.98px) { 
     .content-center .row, footer .contenedor-nosotros {
@@ -289,5 +293,11 @@ footer .nav-footer p a{
 @media (min-width: 768px) and (max-width: 991.98px) { 
     footer .contenedor-contacto {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1760px) {
+    .img-planes-responsive{
+       display: none !important;
     }
 }
