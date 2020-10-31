@@ -25,6 +25,10 @@ a {
     color: var(--darkColor);
 }
 
+.mensaje-error{
+    color: red;
+    
+}
 .icon-nav{
     margin-top: -10px;
     width: 24px;

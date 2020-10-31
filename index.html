@@ -64,19 +64,22 @@
             <div class="col-12 col-md-6 offset-md-9 card-form-body">
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                        <input type="text" class="form-control" id="form-nombre" placeholder="Nombre">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Telefono">
+                        <input type="number" class="form-control" id="form-telefono" placeholder="Telefono">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="E-mail">
+                        <input type="email" class="form-control" id="form-email" placeholder="E-mail">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
+                        <textarea class="form-control" id="form-descripcion" rows="2"
                             placeholder="Descripción"></textarea>
                     </div>
-                    <button type="button" class="btn btn-warning col-12">ENVIAR</button>
+
+                    <p id="mensaje-error" class="mensaje-error text-center"></p>
+
+                    <button id="btn-enviarform" type="button" class="btn btn-warning col-12">ENVIAR</button>
                 </form>
             </div>
         </div>
