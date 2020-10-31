@@ -27,7 +27,7 @@ a {
 
 .mensaje-error{
     color: red;
-    
+
 }
 .icon-nav{
     margin-top: -10px;
@@ -264,6 +264,10 @@ footer .nav-footer p a{
 @media (max-width: 767.98px) { 
     .content-center .row, footer .contenedor-nosotros {
         margin: 0;
+    }
+
+    .tittle-card-form .tel{
+        font-size: 2.4rem;
     }
 
     footer .contenedor-contacto, footer .contenedor-copy-redes {
