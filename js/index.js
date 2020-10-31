@@ -22,4 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function navegacion(){
     document.getElementById(this.getAttribute('value')).scrollIntoView({block: "center", behavior: "smooth"});
+    document.getElementsByClassName('navbar-collapse')[0].classList.remove('show');
 }
