@@ -29,6 +29,13 @@ a {
     color: red;
 
 }
+
+.btn-warning {
+    color: #212529;
+    background-color: #F8AC30;
+    border-color: #F8AC30;
+}
+
 .icon-nav{
     margin-top: -10px;
     width: 24px;
@@ -118,7 +125,7 @@ textarea {
 
 .tittle-card-form .tel {
     font-weight: bold;
-    color: #b79500;
+    color: #F8AC30;
     font-size: 2.5rem;
 }
 
@@ -241,7 +248,7 @@ section .service {
 }
 
 .img-planes-responsive{
-    max-height: 250px;
+    max-height: 235px;
 }
 /* //////////////
    Footer
@@ -296,7 +303,7 @@ footer .nav-footer p a{
     }
 }
 
-@media (max-width: 1760px) {
+@media (min-width: 1760px) {
     .img-planes-responsive{
        display: none !important;
     }
