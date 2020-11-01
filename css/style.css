@@ -278,8 +278,6 @@ footer .nav-footer p a{
    Media queries
 //////////////*/
 
-
-
 @media (max-width: 767.98px) { 
     .content-center .row, footer .contenedor-nosotros {
         margin: 0;
@@ -295,6 +293,10 @@ footer .nav-footer p a{
     
     footer .contenedor-copy-redes {
         font-size: 0.9rem;
+    }
+
+    .row .service-card {
+        margin-bottom: 10%;
     }
 }
 
