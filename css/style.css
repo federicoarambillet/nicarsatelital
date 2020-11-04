@@ -30,8 +30,6 @@ a {
 
 }
 
-
-
 .btn-alert {
     background-color: #F8AC30;
     border-color: #F8AC30;
@@ -64,6 +62,7 @@ textarea {
     line-height: 37px;
     display: block;
     padding: .5rem 1rem;
+    cursor: pointer;
 }
 
 .nav-link:hover {
