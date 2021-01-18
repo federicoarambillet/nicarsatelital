@@ -1,7 +1,7 @@
 .card-plan-head{
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    background-color: var(--tercearyColourPage);
+    background-image: linear-gradient(to right, #BBB2A5,#8D8478, #5D564D 80%);
     min-height: 150px;
     box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
     display: flex;
@@ -37,7 +37,7 @@
 .card-plan-head-premium{
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    background-color: var(--secondaryColourPage);
+    background-image: linear-gradient(to right,#AA6F39, #804815, #552900 80%);
     min-height: 150px;
     box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
     display: flex;
