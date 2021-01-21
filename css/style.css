@@ -212,6 +212,10 @@ section .service {
     box-shadow: 2px 2px 1px RGBA(0, 0, 0, 0.7);
 }
 
+button.btn.btn-alert.col-12.btn-contratar:hover{
+    background-color:  RGBA(0, 0, 0, 0.7);
+}
+
 .list-beneficios{
     padding-left: 3px;
     width: 100%;
